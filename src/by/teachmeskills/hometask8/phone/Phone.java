@@ -64,9 +64,8 @@ public class Phone {
     параметра - имя звонящего и номер телефона звонящего. Вызвать этот
     метод.*/
     public void receiveCall(String name, int number) {
-        System.out.println("Звонит " + name + number);
+        System.out.println("Звонит " + name + " " + number);
     }
-
 
     public String getModel() {
         return model;

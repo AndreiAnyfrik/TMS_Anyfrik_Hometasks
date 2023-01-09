@@ -8,7 +8,7 @@ public class PhoneDemo {
         System.out.println(firstphone.getInfo());
         System.out.println(secondphone.getInfo());
         System.out.println(thirdphone.getInfo());
-        secondphone.receiveCall("ALeksandr");
+        secondphone.receiveCall("ALeksandr",3333);
         firstphone.sendMessage(11, 22);
         firstphone.receiveCall("Andrew", 2222);
     }
