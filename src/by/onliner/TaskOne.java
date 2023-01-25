@@ -28,7 +28,8 @@ public class TaskOne {
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
                 for (int f = 0; f < 3; f++) {
-                    System.out.println(array[i][j][f] = array[i][j][f] + numb);
+                    array[i][j][f] = array[i][j][f] + numb;
+                    System.out.println(array[i][j][f]);
                 }
             }
         }
